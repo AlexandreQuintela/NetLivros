@@ -5,7 +5,7 @@
                     <img style="width: 70px; height: 102px;" alt="${lista.titulo}"
                          src="imagens/home/imagem${lista.idPublicacao}.jpg">
                 </td>
-                <td>Publicação:<a href="Publicacao/detalhe?id=${lista.idPublicacao};ID=<%=s%>"">${lista.titulo}</a></td>
+                <td>PublicaÃ§Ã£o:<a href="Publicacao/detalhe?id=${lista.idPublicacao};ID=<%=s%>"">${lista.titulo}</a></td>
                 <td colspan="1" rowspan="4"><a href="Carrinho/inclui?id=${lista.idPublicacao};ID=<%=s%>"><img src="imagens/home/comp0301.gif" border="0" vspace="3"></a></td>
             </tr>
             <tr><td>Autor:${lista.autor}</td></tr>
